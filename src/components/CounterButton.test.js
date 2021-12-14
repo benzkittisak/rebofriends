@@ -2,7 +2,7 @@ import { shallow , mount , render } from 'enzyme';
 import CounterButton from './CounterButton';
 
 describe('<CounterButton/>', () => {
-    test('expect to render Card component', () => {
+    test('expect to render CounterButton component', () => {
         const mockColor = 'red';
         const wrapper = shallow(<CounterButton color={mockColor}/>)
         expect(wrapper).toMatchSnapshot();
